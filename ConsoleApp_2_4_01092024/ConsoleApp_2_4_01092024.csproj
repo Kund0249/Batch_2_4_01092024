@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.Methods.Startup</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.Methods.MethodsParametersStartup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlStatement\IterationStatement\ButterflyPattern.cs" />
     <Compile Include="ControlStatement\IterationStatement\doWhileLoopDemo.cs" />
     <Compile Include="ControlStatement\IterationStatement\Pattern.cs" />
     <Compile Include="ControlStatement\IterationStatement\Program.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo2.cs" />
     <Compile Include="Methods\BasicCalculator.cs" />
+    <Compile Include="Methods\MethodsParameters.cs" />
     <Compile Include="Methods\Startup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

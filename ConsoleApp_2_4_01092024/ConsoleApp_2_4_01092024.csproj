@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.Methods.MethodsParametersStartup</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.OOPS.Class_Object.Statup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,8 @@
     <Compile Include="Methods\BasicCalculator.cs" />
     <Compile Include="Methods\MethodsParameters.cs" />
     <Compile Include="Methods\Startup.cs" />
+    <Compile Include="OOPS\Class_Object\Patient.cs" />
+    <Compile Include="OOPS\Class_Object\Statup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -68,35 +68,21 @@ namespace ConsoleApp_2_4_01092024.Methods
 
     class MethodsParametersStartup
     {
+        public bool ProcessDate(out int processId)
+        {
+            //code to process the data.
+
+            processId = 1056;
+            return true;
+        }
         static void Main(string[] args)
         {
-             MethodsParameters ob = new MethodsParameters();
+            MethodsParametersStartup ob = new MethodsParametersStartup();
+            //int Pid = 0;
+            bool IsProcessSuccefull =  ob.ProcessDate(out int Pid);
 
-            // //int counter = 0;
-            // //ob.IncrementCounter(ref counter);
-
-            // //Console.WriteLine(counter);
-
-            // int length = 10;
-            // int width = 5;
-            //// int paremeters;
-            // int Area =  ob.RectangleCal(length, width,out int paremeters);
-
-            // Console.WriteLine("Area : " + Area);
-            // Console.WriteLine("Paremeter : " + paremeters);
-
-            //string n = "1014";
-            ////int number = Convert.ToInt32(n);
-
-            //if (ob.ConvertToInt(n, out int number))
-            //    Console.WriteLine(number);
-            //else
-            //    Console.WriteLine("Invalid value");
-
-            //ob.GetAvailableSeat(DateTime.Now,true);
-
-            int total = ob.sum(10,20,5,5,5,5,5,5);
-            Console.WriteLine(total);
+            Console.WriteLine("Is Process Completed : " + IsProcessSuccefull);
+            Console.WriteLine("Process Id : " + Pid);
         }
     }
 }

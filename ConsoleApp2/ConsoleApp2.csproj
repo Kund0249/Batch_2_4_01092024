@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95AAC3CB-E440-46C3-8FF3-83201CEBC906}</ProjectGuid>
+    <ProjectGuid>{8B4CA9B6-5168-4AB7-A237-ABF44845DEFE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp_2_4_01092024</RootNamespace>
-    <AssemblyName>ConsoleApp_2_4_01092024</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.OOPS.EncapsulationExample</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,25 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControlStatement\IterationStatement\ButterflyPattern.cs" />
-    <Compile Include="ControlStatement\IterationStatement\doWhileLoopDemo.cs" />
-    <Compile Include="ControlStatement\IterationStatement\Pattern.cs" />
-    <Compile Include="ControlStatement\IterationStatement\Program.cs" />
-    <Compile Include="ControlStatement\IterationStatement\ReverseNumber.cs" />
-    <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
-    <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo.cs" />
-    <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo2.cs" />
-    <Compile Include="Methods\BasicCalculator.cs" />
-    <Compile Include="Methods\MethodsParameters.cs" />
-    <Compile Include="Methods\Startup.cs" />
-    <Compile Include="OOPS\Class_Object\Patient.cs" />
-    <Compile Include="OOPS\Class_Object\Statup.cs" />
-    <Compile Include="OOPS\EncapsulationExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApp_2_4_01092024\ConsoleApp_2_4_01092024.csproj">
+      <Project>{95aac3cb-e440-46c3-8ff3-83201cebc906}</Project>
+      <Name>ConsoleApp_2_4_01092024</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

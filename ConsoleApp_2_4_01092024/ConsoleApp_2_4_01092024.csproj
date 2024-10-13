@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.OOPS.EncapsulationExample</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.OOPS.Polymorphism.RunTimePolymorphsm</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,11 +60,18 @@
     <Compile Include="OOPS\Class_Object\Patient.cs" />
     <Compile Include="OOPS\Class_Object\Statup.cs" />
     <Compile Include="OOPS\EncapsulationExample.cs" />
+    <Compile Include="OOPS\Inheritance\GoldLoan.cs" />
+    <Compile Include="OOPS\Inheritance\Loan.cs" />
+    <Compile Include="OOPS\Inheritance\Startup.cs" />
+    <Compile Include="OOPS\MemberType\Demo.cs" />
+    <Compile Include="OOPS\Polymorphism\EmailService.cs" />
+    <Compile Include="OOPS\Polymorphism\RunTimePolymorphsm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

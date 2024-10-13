@@ -142,8 +142,8 @@ namespace ConsoleApp_2_4_01092024.OOPS
                 box1.Length,box1.Width,box1.Height,box1.Area());
 
             Console.WriteLine("-----------------------------------------------------");
-            //sallow copy
-            Box box2 = new Box(box1);//box1;
+            
+            Box box2 = new Box(box1);//box1sal=>sallow copy
             Console.WriteLine("Length : {0}  Width : {1}  Height : {2}  Area : {3}",
                box2.Length, box2.Width, box2.Height, box2.Area());
 

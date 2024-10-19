@@ -13,7 +13,7 @@ namespace ConsoleApp2
         {
             Program program = new Program()
             {
-                test = "test"
+                //test = "test"
             };
         }
     }

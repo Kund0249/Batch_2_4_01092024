@@ -10,7 +10,7 @@ namespace ConsoleApp_2_4_01092024.OOPS.Inheritance
     {
         static void Main(string[] args)
         {
-          
+         
         }
     }
 }

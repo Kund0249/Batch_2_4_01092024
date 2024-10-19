@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.OOPS.Polymorphism.RunTimePolymorphsm</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.ExtensionMethod.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,9 +54,14 @@
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo2.cs" />
+    <Compile Include="ExtensionMethod\SmartCalculator.cs" />
+    <Compile Include="ExtensionMethod\SmartCalculatorV2.cs" />
+    <Compile Include="ExtensionMethod\Startup.cs" />
     <Compile Include="Methods\BasicCalculator.cs" />
     <Compile Include="Methods\MethodsParameters.cs" />
     <Compile Include="Methods\Startup.cs" />
+    <Compile Include="OOPS\Abstraction\Interface1.cs" />
+    <Compile Include="OOPS\Abstraction\StudentPage.cs" />
     <Compile Include="OOPS\Class_Object\Patient.cs" />
     <Compile Include="OOPS\Class_Object\Statup.cs" />
     <Compile Include="OOPS\EncapsulationExample.cs" />
@@ -73,5 +78,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Modle\Modle.csproj">
+      <Project>{e7b74b7e-c411-407d-b060-933506c9b930}</Project>
+      <Name>Modle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Processor\Processor.csproj">
+      <Project>{448fe29c-abed-413a-9517-7e387f3ce454}</Project>
+      <Name>Processor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

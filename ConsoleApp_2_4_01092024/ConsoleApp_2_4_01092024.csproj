@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.ExtensionMethod.Startup</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.Collections.ArrayListDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\ArrayListDemo.cs" />
+    <Compile Include="Collections\Startup.cs" />
     <Compile Include="ControlStatement\IterationStatement\ButterflyPattern.cs" />
     <Compile Include="ControlStatement\IterationStatement\doWhileLoopDemo.cs" />
     <Compile Include="ControlStatement\IterationStatement\Pattern.cs" />

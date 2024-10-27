@@ -1,0 +1,18 @@
+﻿Hi Thi is a sample txt file.-------------Error : 10/27/2024 3:56:50 PM-------------------
+Message : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo.Main(String[] args) in C:\Users\lenovo\source\repos\Batch_2_4_01092024\ConsoleApp_2_4_01092024\ExceptionHandling\ExceptionHandlingDemo.cs:line 38
+Trace :    at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo.Main(String[] args) in C:\Users\lenovo\source\repos\Batch_2_4_01092024\ConsoleApp_2_4_01092024\ExceptionHandling\ExceptionHandlingDemo.cs:line 38
+---------------------------------
+-------------Error : 10/27/2024 4:01:52 PM-------------------
+Message : System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo.Main(String[] args) in C:\Users\lenovo\source\repos\Batch_2_4_01092024\ConsoleApp_2_4_01092024\ExceptionHandling\ExceptionHandlingDemo.cs:line 38
+Trace :    at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo.Main(String[] args) in C:\Users\lenovo\source\repos\Batch_2_4_01092024\ConsoleApp_2_4_01092024\ExceptionHandling\ExceptionHandlingDemo.cs:line 38
+---------------------------------

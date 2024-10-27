@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.GenericCollection.ListDemo</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,11 +56,13 @@
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo2.cs" />
+    <Compile Include="ExceptionHandling\ExceptionHandlingDemo.cs" />
     <Compile Include="ExtensionMethod\SmartCalculator.cs" />
     <Compile Include="ExtensionMethod\SmartCalculatorV2.cs" />
     <Compile Include="ExtensionMethod\Startup.cs" />
     <Compile Include="GenericCollection\GenericDemo.cs" />
     <Compile Include="GenericCollection\ListDemo.cs" />
+    <Compile Include="GenericCollection\Queue_Stack_Demo.cs" />
     <Compile Include="Methods\BasicCalculator.cs" />
     <Compile Include="Methods\MethodsParameters.cs" />
     <Compile Include="Methods\Startup.cs" />
@@ -82,7 +84,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Files\demo.txt" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Modle\Modle.csproj">
       <Project>{e7b74b7e-c411-407d-b060-933506c9b930}</Project>

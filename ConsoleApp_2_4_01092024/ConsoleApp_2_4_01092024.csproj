@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_2_4_01092024.ExceptionHandling.ExceptionHandlingDemo</StartupObject>
+    <StartupObject>ConsoleApp_2_4_01092024.DelegatesExample.Demo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,16 +56,19 @@
     <Compile Include="ControlStatement\JumpStatement\ContinueStatement.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo.cs" />
     <Compile Include="ControlStatement\JumpStatement\GotoStatementDemo2.cs" />
+    <Compile Include="DelegatesExample\Demo.cs" />
     <Compile Include="ExceptionHandling\ExceptionHandlingDemo.cs" />
     <Compile Include="ExtensionMethod\SmartCalculator.cs" />
     <Compile Include="ExtensionMethod\SmartCalculatorV2.cs" />
     <Compile Include="ExtensionMethod\Startup.cs" />
+    <Compile Include="FileHandling\FileHandlingDemo.cs" />
     <Compile Include="GenericCollection\GenericDemo.cs" />
     <Compile Include="GenericCollection\ListDemo.cs" />
     <Compile Include="GenericCollection\Queue_Stack_Demo.cs" />
     <Compile Include="Methods\BasicCalculator.cs" />
     <Compile Include="Methods\MethodsParameters.cs" />
     <Compile Include="Methods\Startup.cs" />
+    <Compile Include="MultiThreading\MultiThreadingDemo.cs" />
     <Compile Include="OOPS\Abstraction\Interface1.cs" />
     <Compile Include="OOPS\Abstraction\StudentPage.cs" />
     <Compile Include="OOPS\Class_Object\Patient.cs" />
@@ -97,5 +100,6 @@
       <Name>Processor</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
